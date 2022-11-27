@@ -1,4 +1,4 @@
-# EKM to Ebay Data Refactorisation
+# Fox Group Tech Test
 This is a html, javascript, and css based application that takes some JSON data and output it in the browser in a table. The purpose of this is for displaying github commit data in an html table.
 
 ## Prerequisites

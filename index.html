@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Test</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./resources/css/style.css">
+
+    <!-- Scripts -->
+    <script src="./resources/js/script.js"></script>
+</head>
+<body>
+    <div id="loading_container"><button id="loading">Loading</button></div>
+    <table id="commits_table">
+        <thead>
+            <th data-order="null" id="author_name" onclick="order_by('author_name');">
+                <div>
+                    Authors Name
+                    <span class="uparrow"></span>
+                    <span class="downarrow"></span>
+                </div>
+            </th>
+            <th data-order="null" id="author_commit_date" onclick="order_by('author_commit_date');">
+                <div>
+                    Author Commit Date
+                    <span class="uparrow"></span>
+                    <span class="downarrow"></span>
+                </div>
+            </th>
+            <th>Message</th>
+            <th>Commit URL</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>
